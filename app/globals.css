@@ -223,8 +223,8 @@
   transform: none;
 }
 
-.works-col.is-hidden {
-  display: none;
+.section.hero-started .slide img {
+  object-position: 50% 42%;
 }
 
 .cursor {

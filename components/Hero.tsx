@@ -49,7 +49,7 @@ export function Hero() {
               </div>
             </div>
             <div className="slide scrolla-element-anim-1 scroll-animate animate__active" data-animate="active">
-              <img decoding="async" src="/assets/images/profile2.png" alt="Shah Faisal" />
+              <img decoding="async" src="/assets/images/profile2.png?v=leap" alt="Shah Faisal" />
               <span className="circle circle-1"></span>
               <span className="circle img-1" style={{ backgroundImage: "url(/assets/images/pat-1.png)" }}></span>
               <span className="circle img-2" style={{ backgroundImage: "url(/assets/images/pat-2.png)" }}></span>
