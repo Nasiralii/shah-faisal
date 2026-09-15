@@ -2,12 +2,20 @@
 
 import { useEffect, useState } from "react";
 
-const lines = [
+type LoaderLine = {
+  id: string;
+  text: string;
+  prompt?: boolean;
+  dim?: boolean;
+  ok?: boolean;
+};
+
+const lines: LoaderLine[] = [
   { id: "cmd", prompt: true, text: "next compile --dev" },
   { id: "ts", dim: true, text: "injecting typescript modules" },
   { id: "react", dim: true, text: "hydrating react tree" },
   { id: "ok", ok: true, text: "compiled successfully" }
-] as const;
+];
 
 export function Preloader() {
   const [loaded, setLoaded] = useState(false);
