@@ -1,6 +1,1 @@
-{
-  "rewrites": [
-    { "source": "/", "destination": "/luique_html/template/index.html" },
-    { "source": "/:path*", "destination": "/luique_html/template/:path*" }
-  ]
-}
+{}

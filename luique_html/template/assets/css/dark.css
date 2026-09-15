@@ -755,6 +755,10 @@ body.dark-skin {
 * Responsive
 **/
 
+.dark-skin .brand-logo {
+	color: #fff;
+}
+
 @media screen and (max-width: 1024px) {
 	.dark-skin .menu-full ul li ul li.opened ul {
 		background: #1d1d25;

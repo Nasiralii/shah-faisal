@@ -5636,3 +5636,50 @@ a.wp-block-button__link {
 		text-align: center!important;
 	}
 }
+
+.header .logo {
+	width: auto;
+	min-width: 148px;
+}
+
+.header .logo a {
+	justify-content: flex-start;
+}
+
+.brand-logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: #000;
+	line-height: 1;
+}
+
+.brand-logo__text {
+	font-family: Jost, sans-serif;
+	font-weight: 800;
+	font-size: 22px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+}
+
+.brand-logo__dot {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin-top: -10px;
+	background: #29a587;
+	flex-shrink: 0;
+}
+
+.brand-logo--preloader {
+	margin-bottom: 30px;
+}
+
+.brand-logo--preloader .brand-logo__text {
+	font-size: 28px;
+}
+
+.preloader .spinner-logo {
+	width: auto;
+	min-width: 168px;
+}
