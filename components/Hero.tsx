@@ -22,6 +22,9 @@ export function Hero() {
                 <div className="label lui-subtitle">
                   I am <strong>{profile.title}</strong>
                 </div>
+                <div className="lui-subtitle">
+                  <span>{profile.specialty}</span>
+                </div>
               </div>
               <div className="description">
                 <div>
@@ -78,7 +81,7 @@ export function Hero() {
             </div>
           </div>
           <div className="lui-bgtitle">
-            <span> Frontend Engineer </span>
+            <span> Full Stack Developer </span>
           </div>
         </div>
       </div>

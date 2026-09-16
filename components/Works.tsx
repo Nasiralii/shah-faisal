@@ -62,6 +62,9 @@ export function Works({ showMore = true }: { showMore?: boolean }) {
                       <div className="text">
                         <p>{work.text}</p>
                       </div>
+                      {work.tags?.length ? (
+                        <span className="category">{work.tags.join(" · ")}</span>
+                      ) : null}
                       <a href={work.href} className="lnk" target={work.external ? "_blank" : undefined} rel={work.external ? "noopener" : undefined}>
                         {work.linkLabel}
                       </a>

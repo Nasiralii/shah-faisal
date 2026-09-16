@@ -9,7 +9,7 @@ function HistoryList({
   items
 }: {
   title: string;
-  items: { title: string; place: string; date: string; text: string; present?: boolean }[];
+  items: { title: string; place: string; date: string; text: string; present?: boolean; points?: string[] }[];
 }) {
   const [open, setOpen] = useState(0);
 
@@ -53,6 +53,13 @@ function HistoryList({
                 <div className="text">
                   <div>
                     <p>{item.text}</p>
+                    {item.points?.length ? (
+                      <ul>
+                        {item.points.map((point) => (
+                          <li key={point}>{point}</li>
+                        ))}
+                      </ul>
+                    ) : null}
                   </div>
                 </div>
               </div>

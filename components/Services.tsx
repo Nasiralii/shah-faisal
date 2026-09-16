@@ -33,7 +33,9 @@ export function Services() {
                   <div className="lui-subtitle">
                     <span> {item.subtitle} </span>
                   </div>
-                  <div className="icon"></div>
+                  <div className="icon">
+                    {item.icon ? <img src={item.icon} alt="" width={48} height={48} /> : null}
+                  </div>
                   <h5 className="lui-title">
                     <span> {item.title} </span>
                   </h5>

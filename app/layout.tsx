@@ -3,9 +3,9 @@ import "./globals.css";
 import { SiteShell } from "@/components/SiteShell";
 
 export const metadata: Metadata = {
-  title: "Shah Faisal - Senior Frontend Developer",
+  title: "Shah Faisal - Full Stack Developer",
   description:
-    "Senior Frontend Developer and Software Engineer based in Riyadh. React 18, Next.js, TypeScript, enterprise dashboards, i18n/RTL, and high-performance SPAs.",
+    "Full Stack Developer with 5+ years building scalable web applications and enterprise solutions. React, Next.js, TypeScript, .NET, and REST APIs.",
   authors: [{ name: "Shah Faisal" }],
   icons: { icon: "/favicon.ico" }
 };

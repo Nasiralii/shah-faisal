@@ -2,7 +2,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { skills } from "@/lib/data";
 
 export function Skills() {
-  const columns = [skills.slice(0, 2), skills.slice(2, 4), skills.slice(4, 6)];
+  const columns = [skills.slice(0, 3), skills.slice(3, 6), skills.slice(6, 9)];
 
   return (
     <section className="lui-section lui-gradient-center" id="skills-section">

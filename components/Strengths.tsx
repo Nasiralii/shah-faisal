@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 export function Strengths() {
   return (
     <section className="lui-section lui-gradient-center" id="testimonials-section">
-      <SectionHeading title="Strengths" subtitle="key" highlight="Transferable Skills" />
+      <SectionHeading title="Testimonials" subtitle="what" highlight="Clients Say" />
       <div className="v-line v-line-right">
         <div className="container">
           <Swiper
@@ -54,7 +54,7 @@ export function Strengths() {
             ))}
           </Swiper>
           <div className="lui-bgtitle">
-            <span> Strengths </span>
+            <span> Testimonials </span>
           </div>
           <div className="v-line-block">
             <span></span>

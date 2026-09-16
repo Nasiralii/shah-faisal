@@ -223,8 +223,14 @@
   transform: none;
 }
 
-.section.hero-started .slide img {
-  object-position: 50% 42%;
+.services-item .icon img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.history-item .text li {
+  margin: 0 0 8px;
 }
 
 .cursor {
